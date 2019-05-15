@@ -2,7 +2,7 @@
 
 Pytorch code for the conversion of news PDF files to TXT files. PDF files are converted to images, pre-processed, and then converted to text using [tesseract](https://github.com/tesseract-ocr).  
 
-## Prerequisites
+## Getting started
 
 This code runs on Linux. The code was implemented in Python 2.7.*.
 
@@ -26,6 +26,8 @@ source deactivate environment_name
 ``` 
 
 **Note:** If you decide to create the virtual environment, everytime you want to run this you should run ```source activate environment_name``` (change to the name of your virtual env.).
+
+## Prerequisites
 
 ### PDF to image conversion:
 
