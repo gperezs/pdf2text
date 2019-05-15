@@ -22,10 +22,15 @@ sudo mv /etc/ImageMagick-6/policy.xmlout /etc/ImageMagick-6/policy.xml
 ```
 
 #### Image to text conversion:
+
 Install pip ```sudo apt-get install python-pip```.
+
 Install Pillow ```pip Install Pillow```.
+
 Install OpenCV with pip ```pip install opencv-python``` or with conda ```conda install opencv```.
+
 If ```ImportError: No module named cv2``` is encountered here is a [fix](install opencv: https://stackoverflow.com/questions/19876079/cannot-find-module-cv2-when-using-opencv).
+
 Install pytesseract ```pip install pytesseract```.
 
 ### Instructions
