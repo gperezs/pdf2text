@@ -40,4 +40,4 @@ To run this software save all PDF files to be converted in "./pdfs" folder and r
 ```
 bash run.sh
 ```
-This software will create a TXT file for each PDF file and saves it in "./converted_text/" folder. Also a "all_text.txt" file is created with all the text from all PDF fles in "./pdfs/" folder.
+This software will create a TXT file for each PDF file and saves them in "./converted_text/" folder. Also, an "all_text.txt" file is created with all the text from all PDF fles in "./pdfs/" folder.
