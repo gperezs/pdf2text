@@ -29,15 +29,15 @@ Install Pillow ```pip Install Pillow```.
 
 Install OpenCV with pip ```pip install opencv-python``` or with conda ```conda install opencv```.
 
-If ```ImportError: No module named cv2``` is encountered here is a [fix](install opencv: https://stackoverflow.com/questions/19876079/cannot-find-module-cv2-when-using-opencv).
+If ```ImportError: No module named cv2``` is encountered here is a [fix](https://stackoverflow.com/questions/19876079/cannot-find-module-cv2-when-using-opencv).
 
 Install pytesseract ```pip install pytesseract```.
 
 ### Instructions
 
-To run this software save all PDF files to be converted in "pdfs" folder and run:
+To run this software save all PDF files to be converted in "./pdfs" folder and run:
 
 ```
 bash run.sh
 ```
-
+This software will create a TXT file for each PDF file and saves it in "./converted_text/" folder. Also a "all_text.txt" file is created with all the text from all PDF fles in "./pdfs/" folder.
